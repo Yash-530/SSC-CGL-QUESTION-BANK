@@ -1,0 +1,30 @@
+[
+  {
+    "subject": "General Awareness",
+    "topic": "Polity",
+    "question": "Which Article of the Indian Constitution deals with the Right to Equality?",
+    "options": [
+      "Article 12",
+      "Article 14",
+      "Article 19",
+      "Article 21"
+    ],
+    "answer": "Article 14",
+    "year": 2017,
+    "difficulty": "Easy"
+  },
+  {
+    "subject": "Quantitative Aptitude",
+    "topic": "Percentage",
+    "question": "If a number is increased by 20% and then decreased by 20%, the net change is:",
+    "options": [
+      "No change",
+      "4% increase",
+      "4% decrease",
+      "2% decrease"
+    ],
+    "answer": "4% decrease",
+    "year": 2020,
+    "difficulty": "Easy"
+  }
+]

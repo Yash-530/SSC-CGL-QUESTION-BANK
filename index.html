@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SSC CGL Question Bank</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>🎯 SSC CGL QUESTION BANK</h1>
+            <p>Official Previous Years Questions (2016-2024) | Most Repeated Questions</p>
+            <div class="stats">
+                <div class="stat-card" onclick="showStats()">
+                    <span class="stat-number" id="totalQuestions">0</span>
+                    Total Questions
+                </div>
+                <div class="stat-card" onclick="showStats()">
+                    <span class="stat-number" id="totalSubjects">0</span>
+                    Subject Categories
+                </div>
+                <div class="stat-card" onclick="showStats()">
+                    <span class="stat-number">100%</span>
+                    Accuracy Rate
+                </div>
+                <div class="stat-card" onclick="showStats()">
+                    <span class="stat-number">9</span>
+                    Years Coverage
+                </div>
+            </div>
+        </div>
+
+        
+<!-- Bulk Import Control -->
+<div class="control-group import-group">
+  <label>📥 Import Questions (CSV/JSON):</label>
+  <div class="import-row">
+    <input type="file" id="importFile" accept=".csv,.json" />
+    <button id="importBtn" type="button" title="Import selected file">Import</button>
+    <!-- Message area for upload results -->
+    <div id="importMessage" style="margin-top:10px; font-weight:bold;"></div>
+
+  </div>
+</div>
+<div class="controls">
+            <div class="filter-controls" id="filtersContainer">
+                <div class="control-group">
+                    <label for="subjectSelect">📚 Subject:</label>
+                    <select id="subjectSelect">
+                        <option value="">Choose a subject...</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="topicSelect">📖 Topic:</label>
+                    <select id="topicSelect" disabled>
+                        <option value="">Select subject first...</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="yearFilter">📅 Year:</label>
+                    <select id="yearFilter">
+                        <option value="">All Years</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                    </select>
+                </div>
+
+                <div class="control-group">
+                    <label for="difficultyFilter">⚡ Difficulty:</label>
+                    <select id="difficultyFilter">
+                        <option value="">All Levels</option>
+                        <option value="easy">Easy</option>
+                        <option value="medium">Medium</option>
+                        <option value="hard">Hard</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+            <div class="button-group">
+                <button class="btn btn-primary" id="loadBtn" title="Ctrl+L">
+                    🚀 Load Questions
+                </button>
+                <button class="btn btn-success" id="answersBtn" title="Ctrl+A">
+                    ✅ Show Answers
+                </button>
+                <button class="btn btn-info" id="pdfBtn" title="Ctrl+P">
+                    📄 Generate PDF
+                </button>
+                <!-- Quiz Controls -->
+                <div class="quiz-controls">
+                    <!-- Main Start/Stop Quiz button -->
+                    <button class="btn btn-warning" id="quizBtn" title="Ctrl+Q">
+                        🎮 Start Quiz Mode
+                    </button>
+                </div>
+
+
+            <div class="progress-container">
+                <div class="progress-label">
+                    <span>Progress</span>
+                    <span id="progressText">0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="questionContent">
+            <div class="loading">
+                Select a subject and topic to load questions...
+            </div>
+        </div>
+    </div>
+
+    <div class="print-section" id="printSection"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

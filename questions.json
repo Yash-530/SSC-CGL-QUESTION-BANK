@@ -1,0 +1,495 @@
+{
+  "History": {
+    "Ancient History": [
+      {
+        "question": "Which of the following Harappan sites is known as the 'Manchester of Harappan Civilization'?",
+        "options": [
+          "A) Harappa",
+          "B) Mohenjodaro",
+          "C) Dholavira",
+          "D) Lothal"
+        ],
+        "answer": "D) Lothal",
+        "explanation": "Lothal was known for its bead-making industry and dock facilities, earning it the title 'Manchester of Harappan Civilization'.",
+        "year": "2019",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The Vedic deity Indra was the god of?",
+        "options": [
+          "A) Wind and storm",
+          "B) Fire",
+          "C) Water",
+          "D) Earth"
+        ],
+        "answer": "A) Wind and storm",
+        "explanation": "Indra was the king of gods and god of thunder, lightning and storms in Vedic mythology.",
+        "year": "2018",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Which Mauryan ruler is known for his policy of Dhamma?",
+        "options": [
+          "A) Chandragupta Maurya",
+          "B) Bindusara",
+          "C) Ashoka",
+          "D) Dasharatha"
+        ],
+        "answer": "C) Ashoka",
+        "explanation": "Ashoka promoted Dhamma (moral code) after the Kalinga war to spread peace and non-violence.",
+        "year": "2017",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The Great Bath was found at which Harappan site?",
+        "options": [
+          "A) Harappa",
+          "B) Mohenjodaro",
+          "C) Kalibangan",
+          "D) Banawali"
+        ],
+        "answer": "B) Mohenjodaro",
+        "explanation": "The Great Bath, a large rectangular tank, was discovered at Mohenjodaro and is considered one of the earliest public water tanks.",
+        "year": "2020",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which of the following was the court language of Mauryas?",
+        "options": [
+          "A) Sanskrit",
+          "B) Prakrit",
+          "C) Pali",
+          "D) Tamil"
+        ],
+        "answer": "B) Prakrit",
+        "explanation": "Prakrit was the court language during the Mauryan period. Ashoka's edicts were written in Prakrit.",
+        "year": "2021",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The Rigveda consists of how many mandalas?",
+        "options": [
+          "A) 8",
+          "B) 9",
+          "C) 10",
+          "D) 12"
+        ],
+        "answer": "C) 10",
+        "explanation": "The Rigveda is divided into 10 mandalas (books) containing 1,028 hymns.",
+        "year": "2016",
+        "difficulty": "hard"
+      }
+    ],
+    "Medieval History": [
+      {
+        "question": "Who founded the Delhi Sultanate?",
+        "options": [
+          "A) Qutub-ud-din Aibak",
+          "B) Iltutmish",
+          "C) Balban",
+          "D) Alauddin Khalji"
+        ],
+        "answer": "A) Qutub-ud-din Aibak",
+        "explanation": "Qutub-ud-din Aibak established the Delhi Sultanate in 1206 CE after Muhammad Ghori's death.",
+        "year": "2018",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The Mughal emperor Akbar's policy of religious tolerance was called?",
+        "options": [
+          "A) Din-i-Ilahi",
+          "B) Sulh-i-Kul",
+          "C) Mansabdari",
+          "D) Zabt"
+        ],
+        "answer": "B) Sulh-i-Kul",
+        "explanation": "Sulh-i-Kul means 'universal peace' and represented Akbar's policy of religious tolerance towards all faiths.",
+        "year": "2019",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which Sultan introduced the market control system?",
+        "options": [
+          "A) Iltutmish",
+          "B) Balban",
+          "C) Alauddin Khalji",
+          "D) Muhammad bin Tughluq"
+        ],
+        "answer": "C) Alauddin Khalji",
+        "explanation": "Alauddin Khalji introduced market control system to control prices and ensure regular supply of goods.",
+        "year": "2020",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The Vijayanagara Empire was founded by which brothers?",
+        "options": [
+          "A) Harihara and Bukka",
+          "B) Krishnadeva Raya and Achyuta Raya",
+          "C) Rama Raya and Tirumala",
+          "D) Saluva Narasimha and Immadi Narasimha"
+        ],
+        "answer": "A) Harihara and Bukka",
+        "explanation": "Harihara I and Bukka Raya I founded the Vijayanagara Empire in 1336 CE.",
+        "year": "2017",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The Battle of Tarain (1192) was fought between?",
+        "options": [
+          "A) Muhammad Ghori and Prithviraj Chauhan",
+          "B) Mahmud of Ghazni and Rajendra Chola",
+          "C) Babur and Ibrahim Lodi",
+          "D) Ahmad Shah Abdali and Marathas"
+        ],
+        "answer": "A) Muhammad Ghori and Prithviraj Chauhan",
+        "explanation": "The Second Battle of Tarain (1192) was fought between Muhammad Ghori and Prithviraj Chauhan, resulting in Ghori's victory.",
+        "year": "2021",
+        "difficulty": "easy"
+      }
+    ],
+    "Modern History": [
+      {
+        "question": "The Indian National Congress was founded in which year?",
+        "options": [
+          "A) 1884",
+          "B) 1885",
+          "C) 1886",
+          "D) 1887"
+        ],
+        "answer": "B) 1885",
+        "explanation": "INC was founded by A.O. Hume on 28 December 1885 in Bombay (now Mumbai).",
+        "year": "2016",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Who started the 'Quit India Movement'?",
+        "options": [
+          "A) Bal Gangadhar Tilak",
+          "B) Subhash Chandra Bose",
+          "C) Mahatma Gandhi",
+          "D) Jawaharlal Nehru"
+        ],
+        "answer": "C) Mahatma Gandhi",
+        "explanation": "Mahatma Gandhi launched the Quit India Movement on 8 August 1942 with the slogan 'Do or Die'.",
+        "year": "2017",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The Sepoy Mutiny started from which place?",
+        "options": [
+          "A) Meerut",
+          "B) Delhi",
+          "C) Kanpur",
+          "D) Lucknow"
+        ],
+        "answer": "A) Meerut",
+        "explanation": "The Sepoy Mutiny of 1857 started from Meerut on 10 May 1857 when sepoys refused to use the new Enfield rifle cartridges.",
+        "year": "2019",
+        "difficulty": "easy"
+      },
+      {
+        "question": "Who founded the Brahmo Samaj?",
+        "options": [
+          "A) Dayananda Saraswati",
+          "B) Ram Mohan Roy",
+          "C) Keshab Chandra Sen",
+          "D) Ishwar Chandra Vidyasagar"
+        ],
+        "answer": "B) Ram Mohan Roy",
+        "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828 to reform Hindu society and eliminate social evils.",
+        "year": "2020",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The Rowlatt Act was passed in which year?",
+        "options": [
+          "A) 1917",
+          "B) 1918",
+          "C) 1919",
+          "D) 1920"
+        ],
+        "answer": "C) 1919",
+        "explanation": "The Rowlatt Act was passed in March 1919, giving the British government extraordinary powers to suppress political activities.",
+        "year": "2018",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "Geography": {
+    "Physical Geography": [
+      {
+        "question": "Which is the highest mountain peak in India?",
+        "options": [
+          "A) K2",
+          "B) Kanchenjunga",
+          "C) Nanda Devi",
+          "D) Dhaulagiri"
+        ],
+        "answer": "B) Kanchenjunga",
+        "explanation": "Kanchenjunga (8,586m) is the highest peak entirely within India's borders, located in Sikkim.",
+        "year": "2020",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The Tropic of Cancer passes through how many Indian states?",
+        "options": [
+          "A) 6",
+          "B) 7",
+          "C) 8",
+          "D) 9"
+        ],
+        "answer": "C) 8",
+        "explanation": "Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+        "year": "2019",
+        "difficulty": "medium"
+      },
+      {
+        "question": "Which type of soil is found in the Deccan Plateau?",
+        "options": [
+          "A) Alluvial soil",
+          "B) Black soil",
+          "C) Red soil",
+          "D) Laterite soil"
+        ],
+        "answer": "B) Black soil",
+        "explanation": "Black soil (Regur soil) is predominantly found in the Deccan Plateau, formed from basaltic lava flows.",
+        "year": "2018",
+        "difficulty": "medium"
+      },
+      {
+        "question": "The Western Ghats are also known as?",
+        "options": [
+          "A) Sahyadri",
+          "B) Nilgiris",
+          "C) Aravalli",
+          "D) Vindhya"
+        ],
+        "answer": "A) Sahyadri",
+        "explanation": "The Western Ghats are locally known as Sahyadri mountains, running parallel to the western coast of India.",
+        "year": "2017",
+        "difficulty": "easy"
+      }
+    ],
+    "Indian Geography": [
+      {
+        "question": "Which state has the longest coastline in India?",
+        "options": [
+          "A) Tamil Nadu",
+          "B) Gujarat",
+          "C) Andhra Pradesh",
+          "D) Kerala"
+        ],
+        "answer": "B) Gujarat",
+        "explanation": "Gujarat has the longest coastline of about 1,600 km among all Indian states.",
+        "year": "2016",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The largest lagoon in India is?",
+        "options": [
+          "A) Chilika Lake",
+          "B) Pulicat Lake",
+          "C) Kolleru Lake",
+          "D) Vembanad Lake"
+        ],
+        "answer": "A) Chilika Lake",
+        "explanation": "Chilika Lake in Odisha is the largest coastal lagoon in India and second largest in the world.",
+        "year": "2022",
+        "difficulty": "medium"
+      }
+    ]
+  },
+  "Science": {
+    "Physics": [
+      {
+        "question": "The SI unit of electric current is?",
+        "options": [
+          "A) Volt",
+          "B) Ampere",
+          "C) Ohm",
+          "D) Watt"
+        ],
+        "answer": "B) Ampere",
+        "explanation": "Ampere (A) is the SI base unit of electric current, named after André-Marie Ampère.",
+        "year": "2016",
+        "difficulty": "easy"
+      },
+      {
+        "question": "What is the speed of light in vacuum?",
+        "options": [
+          "A) 3 × 10⁸ m/s",
+          "B) 3 × 10⁶ m/s",
+          "C) 3 × 10¹⁰ m/s",
+          "D) 3 × 10⁴ m/s"
+        ],
+        "answer": "A) 3 × 10⁸ m/s",
+        "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ meters per second or 300,000 km/s.",
+        "year": "2017",
+        "difficulty": "easy"
+      }
+    ],
+    "Chemistry": [
+      {
+        "question": "Which gas is primarily responsible for global warming?",
+        "options": [
+          "A) Oxygen",
+          "B) Nitrogen",
+          "C) Carbon dioxide",
+          "D) Hydrogen"
+        ],
+        "answer": "C) Carbon dioxide",
+        "explanation": "CO2 is the main greenhouse gas contributing to global warming, though others like methane also contribute.",
+        "year": "2019",
+        "difficulty": "easy"
+      },
+      {
+        "question": "The pH value of pure water is?",
+        "options": [
+          "A) 6",
+          "B) 7",
+          "C) 8",
+          "D) 9"
+        ],
+        "answer": "B) 7",
+        "explanation": "Pure water has a pH of 7, which is neutral - neither acidic nor basic.",
+        "year": "2017",
+        "difficulty": "easy"
+      }
+    ],
+    "Biology": [
+      {
+        "question": "The process of photosynthesis occurs in which part of the plant cell?",
+        "options": [
+          "A) Nucleus",
+          "B) Mitochondria",
+          "C) Chloroplast",
+          "D) Ribosome"
+        ],
+        "answer": "C) Chloroplast",
+        "explanation": "Chloroplasts contain chlorophyll and are the site of photosynthesis in plant cells.",
+        "year": "2016",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "Economics": {
+    "Indian Economy": [
+      {
+        "question": "What is India's current GDP ranking in the world (as of 2024)?",
+        "options": [
+          "A) 4th",
+          "B) 5th",
+          "C) 6th",
+          "D) 7th"
+        ],
+        "answer": "B) 5th",
+        "explanation": "India is the 5th largest economy by nominal GDP (2024) after USA, China, Germany, and Japan.",
+        "year": "2024",
+        "difficulty": "medium"
+      }
+    ],
+    "Banking & Finance": [
+      {
+        "question": "Which is the oldest stock exchange in India?",
+        "options": [
+          "A) NSE",
+          "B) BSE",
+          "C) CSE",
+          "D) DSE"
+        ],
+        "answer": "B) BSE",
+        "explanation": "Bombay Stock Exchange (BSE) established in 1875 is the oldest stock exchange in India.",
+        "year": "2017",
+        "difficulty": "easy"
+      }
+    ]
+  },
+  "Environment": [
+    {
+      "question": "The ozone layer is located in which part of atmosphere?",
+      "options": [
+        "A) Troposphere",
+        "B) Stratosphere",
+        "C) Mesosphere",
+        "D) Thermosphere"
+      ],
+      "answer": "B) Stratosphere",
+      "explanation": "Ozone layer is primarily located in stratosphere, 15-35 km above Earth's surface.",
+      "year": "2019",
+      "difficulty": "medium"
+    },
+    {
+      "question": "World Environment Day is celebrated on?",
+      "options": [
+        "A) 5 June",
+        "B) 22 April",
+        "C) 22 March",
+        "D) 16 September"
+      ],
+      "answer": "A) 5 June",
+      "explanation": "World Environment Day is observed annually on 5 June since 1974.",
+      "year": "2016",
+      "difficulty": "easy"
+    }
+  ],
+  "Current Affairs": [
+    {
+      "question": "Who is the current Chief Justice of India (2024)?",
+      "options": [
+        "A) D.Y. Chandrachud",
+        "B) N.V. Ramana",
+        "C) Sharad Arvind Bobde",
+        "D) Ranjan Gogoi"
+      ],
+      "answer": "A) D.Y. Chandrachud",
+      "explanation": "Justice D.Y. Chandrachud is the current Chief Justice of India since November 2022.",
+      "year": "2024",
+      "difficulty": "easy"
+    },
+    {
+      "question": "India's G20 Presidency was in which year?",
+      "options": [
+        "A) 2022",
+        "B) 2023",
+        "C) 2024",
+        "D) 2025"
+      ],
+      "answer": "B) 2023",
+      "explanation": "India held G20 presidency in 2023 with theme 'Vasudhaiva Kutumbakam'.",
+      "year": "2023",
+      "difficulty": "easy"
+    }
+  ],
+  "Polity": {
+    "Constitution": [
+      {
+        "question": "The Indian Constitution was adopted on?",
+        "options": [
+          "A) 26 January 1950",
+          "B) 26 November 1949",
+          "C) 15 August 1947",
+          "D) 2 October 1950"
+        ],
+        "answer": "B) 26 November 1949",
+        "explanation": "The Indian Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950.",
+        "year": "2016",
+        "difficulty": "easy"
+      }
+    ],
+    "Parliament": [
+      {
+        "question": "The maximum strength of Lok Sabha is?",
+        "options": [
+          "A) 545",
+          "B) 550",
+          "C) 552",
+          "D) 555"
+        ],
+        "answer": "C) 552",
+        "explanation": "The maximum strength of Lok Sabha is 552 (530 from states + 20 from Union Territories + 2 Anglo-Indians).",
+        "year": "2019",
+        "difficulty": "medium"
+      }
+    ]
+  }
+}
