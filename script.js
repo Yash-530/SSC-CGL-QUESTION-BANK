@@ -12,7 +12,7 @@
         let quizTimer = null;
         let quizDuration = 600; // default 10 min
         let timeLeft = quizDuration;
-
+        
 
         // Initialize page
         document.addEventListener('DOMContentLoaded', function() {
@@ -477,7 +477,7 @@ function startQuiz() {
   if (loadBtn) loadBtn.disabled = true;
 
     // ✅ Hide filters until backToSubjects
-    const filters = document.getElementById('filtersContainer');
+    const filters = document.getElementById('controlid');
     if (filters) filters.classList.add("hidden");
 
   showNotification(`Quiz started! Duration: ${mins} min`, 'info');
@@ -666,7 +666,7 @@ function backToSubjects() {
   if (loadBtn) loadBtn.disabled = false;
   
   // ✅ Show filters back (if you hide them during quiz)
-    const filters = document.getElementById('filtersContainer');
+    const filters = document.getElementById('controlid');
     if (filters) filters.classList.remove("hidden");
 
   // Reset quiz button
@@ -795,60 +795,68 @@ function reviewQuestions() {
 }
 
         function generatePDF() {
-            if (!currentQuestions.length) {
-                showNotification('Please load questions first!', 'warning');
-                return;
-            }
-            
-            const printSection = document.getElementById('printSection');
-            const subject = document.getElementById('subjectSelect').value;
-            const topic = document.getElementById('topicSelect').value;
-            
-            let content = `
-                <div style="font-family: Arial, sans-serif; padding: 20px;">
-                    <div style="text-align: center; margin-bottom: 30px; border-bottom: 2px solid #333; padding-bottom: 20px;">
-                        <h1 style="color: #2c3e50; margin-bottom: 10px;">SSC CGL General Studies Question Bank</h1>
-                        <h2 style="color: #7f8c8d; margin-bottom: 5px;">Subject: ${subject}</h2>
-                        <h3 style="color: #7f8c8d; margin-bottom: 5px;">Topic: ${topic}</h3>
-                        <p style="color: #7f8c8d;">Previous Years Questions (2016-2024) | Total Questions: ${currentQuestions.length}</p>
-                        <p style="color: #7f8c8d;">Generated on: ${new Date().toLocaleDateString()}</p>
+    if (!currentQuestions.length) {
+        showNotification('Please load questions first!', 'warning');
+        return;
+    }
+
+    const printSection = document.getElementById('printSection');
+    const subject = document.getElementById('subjectSelect').value;
+    const topic = document.getElementById('topicSelect').value;
+
+    // Build content dynamically
+    let content = `
+        <div style="font-family: Arial, sans-serif; padding: 20px;">
+            <div style="text-align: center; margin-bottom: 30px; border-bottom: 2px solid #333; padding-bottom: 20px;">
+                <h1 style="color: #2c3e50; margin-bottom: 10px;">SSC CGL General Studies Question Bank</h1>
+                <h2 style="color: #7f8c8d; margin-bottom: 5px;">Subject: ${subject}</h2>
+                <h3 style="color: #7f8c8d; margin-bottom: 5px;">Topic: ${topic}</h3>
+                <p style="color: #7f8c8d;">Previous Years Questions (2016-2024) | Total Questions: ${currentQuestions.length}</p>
+                <p style="color: #7f8c8d;">Generated on: ${new Date().toLocaleDateString()}</p>
+            </div>
+    `;
+
+    currentQuestions.forEach((q, index) => {
+        content += `
+            <div style="margin-bottom: 25px; padding: 20px; border: 1px solid #ddd; border-radius: 8px; page-break-inside: avoid;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <div style="background: #3498db; color: white; width: 30px; height: 30px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: bold;">${index + 1}</div>
+                    <div style="display: flex; gap: 10px;">
+                        <span style="background: #f39c12; color: white; padding: 5px 12px; border-radius: 15px; font-size: 12px; font-weight: 600;">${q.year}</span>
+                        <span style="background: ${q.difficulty === 'easy' ? '#d4edda' : q.difficulty === 'medium' ? '#fff3cd' : '#f8d7da'}; color: ${q.difficulty === 'easy' ? '#155724' : q.difficulty === 'medium' ? '#856404' : '#721c24'}; padding: 5px 12px; border-radius: 15px; font-size: 12px; font-weight: 600; text-transform: uppercase;">${q.difficulty}</span>
                     </div>
-            `;
-            
-            currentQuestions.forEach((q, index) => {
-                content += `
-                    <div style="margin-bottom: 25px; padding: 20px; border: 1px solid #ddd; border-radius: 8px; page-break-inside: avoid;">
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
-                            <div style="background: #3498db; color: white; width: 30px; height: 30px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-weight: bold;">${index + 1}</div>
-                            <div style="display: flex; gap: 10px;">
-                                <span style="background: #f39c12; color: white; padding: 5px 12px; border-radius: 15px; font-size: 12px; font-weight: 600;">${q.year}</span>
-                                <span style="background: ${q.difficulty === 'easy' ? '#d4edda' : q.difficulty === 'medium' ? '#fff3cd' : '#f8d7da'}; color: ${q.difficulty === 'easy' ? '#155724' : q.difficulty === 'medium' ? '#856404' : '#721c24'}; padding: 5px 12px; border-radius: 15px; font-size: 12px; font-weight: 600; text-transform: uppercase;">${q.difficulty}</span>
-                            </div>
-                        </div>
-                        <div style="font-size: 16px; font-weight: 600; margin-bottom: 15px; line-height: 1.5;">${q.question}</div>
-                        <div style="margin-bottom: 15px;">
-                            ${q.options.map(option => `
-                                <div style="padding: 10px; margin: 8px 0; border: 1px solid #ddd; border-radius: 6px; ${option === q.answer ? 'background: #d4edda; border-color: #27ae60; font-weight: 600;' : ''}">${option}</div>
-                            `).join('')}
-                        </div>
-                        <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; border-radius: 6px; font-style: italic;">
-                            <strong>Answer:</strong> ${q.answer}<br>
-                            <strong>Explanation:</strong> ${q.explanation}
-                        </div>
-                    </div>
-                `;
-            });
-            
-            content += '</div>';
-            printSection.innerHTML = content;
-            
-            // Trigger print
-            setTimeout(() => {
-                window.print();
-            }, 100);
-            
-            showNotification('PDF generation initiated! Please use your browser\'s print dialog.', 'info');
-        }
+                </div>
+                <div style="font-size: 16px; font-weight: 600; margin-bottom: 15px; line-height: 1.5;">${q.question}</div>
+                <div style="margin-bottom: 15px;">
+                    ${q.options.map(option => `
+                        <div style="padding: 10px; margin: 8px 0; border: 1px solid #ddd; border-radius: 6px; ${option === q.answer ? 'background: #d4edda; border-color: #27ae60; font-weight: 600;' : ''}">${option}</div>
+                    `).join('')}
+                </div>
+                <div style="background: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; border-radius: 6px; font-style: italic;">
+                    <strong>Answer:</strong> ${q.answer}<br>
+                    <strong>Explanation:</strong> ${q.explanation}
+                </div>
+            </div>
+        `;
+    });
+
+    content += '</div>';
+    printSection.innerHTML = content;
+
+    // Use html2pdf to generate and download the PDF
+    const opt = {
+        margin:       0.5,
+        filename:     `SSC_CGL_${subject}_${topic}_Questions.pdf`,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2 },
+        jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+    };
+    
+    html2pdf().set(opt).from(printSection).save();
+    
+    showNotification('PDF download started!', 'info');
+}
+
 
         function updateProgress() {
             const progressFill = document.getElementById('progressFill');
