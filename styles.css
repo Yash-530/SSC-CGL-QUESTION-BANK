@@ -251,6 +251,15 @@
             background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             color: white;
         }
+
+        .quiz-controls {
+
+            display: contents;
+        }
+        #loadBtn,#answersBtn,#pdfBtn,#quizBtn {
+            margin-bottom: 10px;
+        }
+
         
         .btn-success {
             background: linear-gradient(135deg, var(--success-color), #229954);
@@ -566,7 +575,7 @@
         }
         
         .print-section {
-            display: none;
+            /* display: none; */
         }
         
         @media print {
