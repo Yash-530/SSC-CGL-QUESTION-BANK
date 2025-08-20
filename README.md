@@ -55,7 +55,7 @@ SSC-CGL-QUESTION-BANK/
 ```mermaid
 flowchart TD
 
-    A[Start → Select Subject] --> B[Import Questions (CSV/JSON)?]
+    A[Start → Select Subject] --> B[Import Questions CSV/JSON]
     B -->|Yes| C[Upload Extra Questions]
     B -->|No| D[Use Website Questions]
     C --> D
