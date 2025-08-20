@@ -77,4 +77,15 @@ flowchart TD
 
 ---
 
+⚡ Key fixes:  
+- Each `-->` is **on its own line**.  
+- No nested `D --> E D --> F`.  
+- Labels are short and GitHub-safe (no special characters that confuse parser).  
+
+---
+
+👉 Do you also want me to integrate this diagram **inside your README flow section** with badges + project structure so you can just copy-paste one file into GitHub?
+
+---
+
 Would you like me to **embed badges (shields.io)** at the very top of your README (like "Live Demo", "License", "Made with ❤️ in JS") so it looks more professional?
