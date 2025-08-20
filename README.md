@@ -42,30 +42,3 @@ It helps aspirants **practice, review, and analyze** General Studies questions w
 
 ## 📂 Project Structure
 
-```bash
-SSC-CGL-QUESTION-BANK/
-│── index.html        # Main HTML file
-│── style.css         # Stylesheet (UI design, colors, layout)
-│── script.js         # Core logic (quiz, filters, PDF, timer)
-│── /assets           # Images, icons, sound files (beep, etc.)
-│── README.md         # Project documentation
-
-flowchart TD
-    A[Start Quiz] --> B{Questions Available?}
-    B -- No --> C[Notification: No questions available]
-    B -- Yes --> D[Ask Duration in Minutes]
-    D --> E[Initialize Quiz State]
-    E --> F[Show First Question + Start Timer]
-
-    F --> G[User Selects Answer]
-    G --> H{More Questions?}
-    H -- Yes --> F
-    H -- No --> I[End Quiz]
-
-    I --> J[Show Score + Feedback]
-    J --> K[Options: Restart / Review / Back]
-    K --> L[Restart Quiz]
-    K --> M[Review Questions]
-    K --> N[Back to Subjects]
-    N --> O[Show Filters + Question List]
----
