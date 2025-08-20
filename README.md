@@ -67,3 +67,8 @@ flowchart TD
     K --> M[Review Questions]
     K --> N[Back to Subjects]
     N --> O[Show Filters + Question List]
+
+![GitHub repo size](https://img.shields.io/github/repo-size/yash-530/SSC-CGL-QUESTION-BANK?color=blue&style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/yash-530/SSC-CGL-QUESTION-BANK?style=for-the-badge&color=yellow)
+![GitHub forks](https://img.shields.io/github/forks/yash-530/SSC-CGL-QUESTION-BANK?style=for-the-badge&color=green)
+![License](https://img.shields.io/github/license/yash-530/SSC-CGL-QUESTION-BANK?style=for-the-badge&color=orange)
