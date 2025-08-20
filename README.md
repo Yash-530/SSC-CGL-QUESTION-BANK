@@ -91,7 +91,7 @@ flowchart TD
     S -->|No| T[End Quiz]
 
     T --> U[Show Score + Feedback]
-    U --> V-Next Action
+    U --> V[Next Action]
     V -->|🔄 Restart Quiz| N
     V -->|📖 Review Questions| W[Review Mode All Qs + Answers + Explanations]
     V -->|↩ Back to Subjects| X[Show Filters + Question List]
