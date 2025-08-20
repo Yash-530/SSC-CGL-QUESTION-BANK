@@ -69,7 +69,7 @@ flowchart TD
     D --> E[Select Year]
     E --> F[Select Difficulty]
     F --> G[Click Load Questions]
-    G --> H[Questions Loaded (MCQs)]
+    G --> H[Questions Loaded MCQs]
 
     H --> I{Want Answers?}
     I -->|Yes| J[Show Answers + Explanations]
@@ -93,7 +93,7 @@ flowchart TD
     T --> U[Show Score + Feedback]
     U --> V{Next Action}
     V -->|🔄 Restart Quiz| N
-    V -->|📖 Review Questions| W[Review Mode (All Qs + Answers + Explanations)]
+    V -->|📖 Review Questions| W[Review Mode {All Qs + Answers + Explanations}]
     V -->|↩ Back to Subjects| X[Show Filters + Question List]
 
     %% --- Ending ---
