@@ -52,55 +52,19 @@ SSC-CGL-QUESTION-BANK/
 - *Ctrl+Q*: Start/Stop Quiz 
 - *Ctrl+P*: Generate PDF Features: 
 
-
-## 🔄 Website Workflow
-
-```mermaid
 flowchart TD
+    A[Start → Select Subject] --> B[Import Questions (CSV/JSON)?]
+    B -->|Yes| C[Upload Extra Questions]
+    B -->|No| D[Use Website Questions]
+    C --> D
 
-    %% --- Entry Points ---
-    A[🏁 Start] --> B{Choose Action}
+    D --> E[Select Topic]
+    E --> F[Select Year]
+    F --> G[Select Difficulty]
+    G --> H[Click Load Questions]
+    H --> I[Questions Loaded in MCQ Format]
 
-    B -->|📚 Study Questions| C[Select Subject]
-    B -->|📥 Import Questions CSV/JSON| C
-
-    %% --- Study Flow ---
-    C --> D[Select Topic]
-    D --> E[Select Year]
-    E --> F[Select Difficulty]
-    F --> G[Click Load Questions]
-    G --> H[Questions Loaded MCQs]
-
-    H --> I{Want Answers?}
-    I -->|Yes| J[Show Answers + Explanations]
-    I -->|No| K[Keep Practicing]
-
-    H --> L{Generate PDF?}
-    L -->|Yes| M[📄 Download PDF]
-    L -->|No| K
-
-    %% --- Quiz Flow ---
-    F --> N[Start Quiz]
-    N --> O[Enter Duration Minutes]
-    O --> P[Initialize Quiz State]
-    P --> Q[Show First Question + Start Timer]
-
-    Q --> R[User Selects Answer]
-    R --> S{More Questions?}
-    S -->|Yes| Q
-    S -->|No| T[End Quiz]
-
-    T --> U[Show Score + Feedback]
-    U --> V[Next Action]
-    V -->|🔄 Restart Quiz| N
-    V -->|📖 Review Questions| W[Review Mode All Qs + Answers + Explanations]
-    V -->|↩ Back to Subjects| X[Show Filters + Question List]
-
-    %% --- Ending ---
-    J --> X
-    K --> X
-    M --> X
-    W --> X
-    X --> Z[🏁 End]
-
- ```
+    I --> J[Click Show Answers → Show Explanations]
+    I --> K[Click Generate PDF → Download PDF]
+  
+    ---
