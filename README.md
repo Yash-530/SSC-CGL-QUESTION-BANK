@@ -33,7 +33,7 @@ It helps aspirants **practice, review, and analyze** General Studies questions w
 
 ---
 
-Keyboard Shortcuts: 
+## Keyboard Shortcuts: 
 • Ctrl+L: Load Questions 
 • Ctrl+A: Toggle Answers 
 • Ctrl+Q: Start/Stop Quiz 
