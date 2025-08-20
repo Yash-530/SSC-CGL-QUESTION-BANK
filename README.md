@@ -52,6 +52,10 @@ SSC-CGL-QUESTION-BANK/
 - *Ctrl+Q*: Start/Stop Quiz 
 - *Ctrl+P*: Generate PDF Features: 
 
+
+## 📊 Quiz Flow Diagram
+
+```mermaid
 flowchart TD
 
     A [Start Quiz] --> B{Questions Available?}
@@ -72,4 +76,4 @@ flowchart TD
     K --> N[Back to Subjects]
     N --> O[Show Filters + Question List]
 
-
+ ```
