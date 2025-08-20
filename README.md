@@ -53,13 +53,15 @@ SSC-CGL-QUESTION-BANK/
 ├── LICENSE                 # MIT (or your chosen license)
 └── README.md               # This file
 
+## 📊 Quiz Flow Diagram
+
 ```mermaid
 flowchart TD
     A[Start Quiz] --> B{Questions Available?}
-    B -- No --> C[Show Notification: No questions available]
-    B -- Yes --> D[Ask Duration Minutes]
+    B -- No --> C[Notification: No questions available]
+    B -- Yes --> D[Ask Duration in Minutes]
     D --> E[Initialize Quiz State]
-    E --> F[Show First Question + Timer Start]
+    E --> F[Show First Question + Start Timer]
 
     F --> G[User Selects Answer]
     G --> H{More Questions?}
@@ -72,8 +74,6 @@ flowchart TD
     K --> M[Review Questions]
     K --> N[Back to Subjects]
     N --> O[Show Filters + Question List]
-
----
 
 ---
 
