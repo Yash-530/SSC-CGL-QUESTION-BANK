@@ -53,27 +53,54 @@ SSC-CGL-QUESTION-BANK/
 - *Ctrl+P*: Generate PDF Features: 
 
 
-## 📊 Quiz Flow Diagram
+## 🔄 Website Workflow
 
 ```mermaid
 flowchart TD
 
-    A[Select the Subject] --> B{Questions Available?}
-    B -- No --> C[Notification: No questions available]
-    B -- Yes --> D[Ask Duration in Minutes]
-    D --> E[Initialize Quiz State]
-    E --> F[Show First Question + Start Timer]
+    %% --- Entry Points ---
+    A[🏁 Start] --> B{Choose Action}
 
-    F --> G[User Selects Answer]
-    G --> H{More Questions?}
-    H -- Yes --> F
-    H -- No --> I[End Quiz]
+    B -->|📚 Study Questions| C[Select Subject]
+    B -->|📥 Import Questions (CSV/JSON)| C
 
-    I --> J[Show Score + Feedback]
-    J --> K[Options: Restart / Review / Back]
-    K --> L[Restart Quiz]
-    K --> M[Review Questions]
-    K --> N[Back to Subjects]
-    N --> O[Show Filters + Question List]
+    %% --- Study Flow ---
+    C --> D[Select Topic]
+    D --> E[Select Year]
+    E --> F[Select Difficulty]
+    F --> G[Click Load Questions]
+    G --> H[Questions Loaded (MCQs)]
+
+    H --> I{Want Answers?}
+    I -->|Yes| J[Show Answers + Explanations]
+    I -->|No| K[Keep Practicing]
+
+    H --> L{Generate PDF?}
+    L -->|Yes| M[📄 Download PDF]
+    L -->|No| K
+
+    %% --- Quiz Flow ---
+    F --> N[Start Quiz]
+    N --> O[Enter Duration (Minutes)]
+    O --> P[Initialize Quiz State]
+    P --> Q[Show First Question + Start Timer]
+
+    Q --> R[User Selects Answer]
+    R --> S{More Questions?}
+    S -->|Yes| Q
+    S -->|No| T[End Quiz]
+
+    T --> U[Show Score + Feedback]
+    U --> V{Next Action}
+    V -->|🔄 Restart Quiz| N
+    V -->|📖 Review Questions| W[Review Mode (All Qs + Answers + Explanations)]
+    V -->|↩ Back to Subjects| X[Show Filters + Question List]
+
+    %% --- Ending ---
+    J --> X
+    K --> X
+    M --> X
+    W --> X
+    X --> Z[🏁 End]
 
  ```
