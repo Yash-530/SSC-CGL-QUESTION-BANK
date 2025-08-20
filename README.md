@@ -42,3 +42,10 @@ It helps aspirants **practice, review, and analyze** General Studies questions w
 
 ## 📂 Project Structure
 
+```bash
+SSC-CGL-QUESTION-BANK/
+│── index.html        # Main HTML file
+│── style.css         # Stylesheet (UI design, colors, layout)
+│── script.js         # Core logic (quiz, filters, PDF, timer)
+│── /assets           # Images, icons, sound files (beep, etc.)
+│── README.md         # Project documentation
