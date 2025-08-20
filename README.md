@@ -75,7 +75,7 @@ flowchart TD
 ```
 
 
-## 📊 Study Flow
+## 📊 Quiz Flow ⌛
 
 ```mermaid
 flowchart TD
