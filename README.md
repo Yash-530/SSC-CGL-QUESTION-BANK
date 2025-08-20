@@ -24,6 +24,17 @@ Practice with **Official Previous Years’ Questions (2016–2024)**, including 
 
 ## 📂 Project Structure
 
+- **index.html** → The entry point (contains structure of the page).  
+- **style.css** → All styling: colors, buttons, responsiveness, animations.  
+- **script.js** → Core logic:
+  - Question filtering by subject, topic, year, difficulty  
+  - Quiz mode (with timer, score, review)  
+  - PDF generation  
+  - Notifications & UI interactivity  
+
+---
+
+
 
 ---
 
