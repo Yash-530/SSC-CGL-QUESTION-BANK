@@ -25,6 +25,33 @@ It helps aspirants **practice, review, and analyze** General Studies questions w
 
 ## 📂 Project Structure
 
+SSC-CGL-QUESTION-BANK/
+├─ index.html                # Main page (UI markup, IDs for JS hooks)
+├─ style.css                 # All styles (layout, controls, timer colors, utilities)
+├─ script.js                 # App logic (state, filters, quiz, timer, PDF, import)
+│
+├─ assets/                   # Static assets
+│  ├─ icons/                 # Favicons / SVGs
+│  │  └─ favicon.png
+│  ├─ images/                # Screenshots / logos (for README/UI)
+│  └─ sounds/                # (optional) audio cues
+│     └─ beep.mp3            # if you switch to file-based beep instead of WebAudio
+│
+├─ data/                     # (optional) example files for quick testing
+│  ├─ sample.csv
+│  └─ sample.json
+│
+├─ docs/                     # (optional) extra documentation / screenshots
+│  └─ screenshots.png
+│
+├─ .github/                  # (optional) CI for Pages or linting
+│  └─ workflows/
+│     └─ pages.yml
+│
+├─ README.md                 # The nice README we wrote
+├─ LICENSE                   # MIT (or your choice)
+└─ CNAME                     # (optional) custom domain for GitHub Pages
+
 
 ---
 
