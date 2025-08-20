@@ -62,7 +62,7 @@ flowchart TD
     A[🏁 Start] --> B{Choose Action}
 
     B -->|📚 Study Questions| C[Select Subject]
-    B -->|📥 Import Questions (CSV/JSON)| C
+    B -->|📥 Import Questions CSV/JSON| C
 
     %% --- Study Flow ---
     C --> D[Select Topic]
