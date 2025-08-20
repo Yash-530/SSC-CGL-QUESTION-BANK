@@ -52,9 +52,9 @@ SSC-CGL-QUESTION-BANK/
 - *Ctrl+Q*: Start/Stop Quiz 
 - *Ctrl+P*: Generate PDF Features: 
 
-mermaid 
+```mermaid
+flowchart TD
 
-    flowchart TD
     A[Start → Select Subject] --> B[Import Questions (CSV/JSON)?]
     B -->|Yes| C[Upload Extra Questions]
     B -->|No| D[Use Website Questions]
