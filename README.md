@@ -52,7 +52,8 @@ SSC-CGL-QUESTION-BANK/
 - *Ctrl+Q*: Start/Stop Quiz 
 - *Ctrl+P*: Generate PDF Features: 
 
-## 📊 Study Flow
+## 📑 Study Flow
+
 
 ```mermaid
 flowchart TD
@@ -70,5 +71,32 @@ flowchart TD
 
     I --> J[Click Show Answers → Show Explanations]
     I --> K[Click Generate PDF → Download PDF]
+
+```
+
+
+## 📊 Study Flow
+
+```mermaid
+flowchart TD
+    A[Start → Select Subject] --> B[Select Topic]
+    B --> C[Select Year]
+    C --> D[Select Difficulty]
+    D --> E[Click Start Quiz]
+
+    E --> F[Enter Duration in Minutes]
+    F --> G[Initialize Quiz State]
+    G --> H[Questions Loaded One by One + Timer Starts]
+
+    H --> I[User Selects Answer → Next Question]
+    I -->|More Questions| H
+    I -->|End of Questions / Timer Ends| J[End Quiz]
+
+    J --> K[Show Score + Feedback]
+    K --> L[Options: Restart Quiz]
+    K --> M[Options: Review Questions]
+    K --> N[Options: Back to Subjects]
+
+    N --> O[Show Filters + Question List]
 
 ```
