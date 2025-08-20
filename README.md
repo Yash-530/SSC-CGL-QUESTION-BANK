@@ -1,68 +1,56 @@
 # 📘 SSC CGL Question Bank
 
-A **free online resource** for SSC CGL aspirants.  
-Practice with **Official Previous Years’ Questions (2016–2024)**, including the most repeated questions—organized neatly by subject, topic, year, and difficulty.
+[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-Visit%20Now-2b7fff?style=for-the-badge)](https://yash-530.github.io/SSC-CGL-QUESTION-BANK/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)
+![Made with HTML](https://img.shields.io/badge/Made%20with-HTML-blue?style=for-the-badge)
+![Made with JS](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge)
 
 ---
 
-## 🌐 Live Website
-
-👉 [Click here to open SSC CGL Question Bank](https://yash-530.github.io/SSC-CGL-QUESTION-BANK/)
+## 🚀 About the Project
+**SSC CGL Question Bank** is an interactive web application containing **official SSC CGL previous year questions (2016–2024)**.  
+It helps aspirants **practice, review, and analyze** General Studies questions with quiz mode, filters, and PDF export.  
 
 ---
 
 ## ✨ Features
-
-- 📚 **Subject & Topic Filters** → Quickly find questions you want to practice  
-- 📅 **Year & Difficulty Filters** → Focus on specific exam years or levels  
-- 📝 **Quiz Mode** → Attempt questions like a real test with timer & scoring  
-- 📊 **Instant Feedback** → Get correct answers & explanations  
-- 📑 **PDF Generator** → Download selected questions for offline practice  
-- 📱 **Responsive Design** → Works smoothly on desktop, tablet, and mobile  
+✅ Filter by **Subject, Topic, Year, Difficulty**  
+✅ **Quiz Mode** with Timer, Score & Review  
+✅ **PDF Generation** of selected questions  
+✅ User-friendly notifications  
+✅ Mobile Responsive UI  
 
 ---
 
 ## 📂 Project Structure
 
-- **index.html** → The entry point (contains structure of the page).  
-- **style.css** → All styling: colors, buttons, responsiveness, animations.  
-- **script.js** → Core logic:
-  - Question filtering by subject, topic, year, difficulty  
-  - Quiz mode (with timer, score, review)  
-  - PDF generation  
-  - Notifications & UI interactivity  
 
 ---
 
+## 🔄 Quiz Flow
+
+```mermaid
+flowchart TD
+    A[User Selects Subject & Topic] --> B[Questions Loaded]
+    B --> C[Start Quiz Mode]
+    C --> D[Timer Starts ⏱]
+    D --> E[Answer Questions]
+    E -->|Correct/Incorrect| F[Track Score]
+    F --> G[Next Question ➡️]
+    G --> H{Last Question?}
+    H -->|No| E
+    H -->|Yes| I[Quiz Completed 🎉]
+    I --> J[Show Score & Performance]
+    J --> K[Options: Restart | Review | Back to Subjects]
 
 
 ---
 
-## 🚀 How to Use (For Users)
+✨ This version adds:
+- **Badges** (live demo, license, tech)  
+- **Flow Diagram (quiz flow in Mermaid)**  
+- **Structured sections** (clear & user-friendly)  
 
-1. Open the [Live Website](https://yash-530.github.io/SSC-CGL-QUESTION-BANK/).  
-2. Select a **Subject** → then choose a **Topic**.  
-3. Use filters for **Year** or **Difficulty** (optional).  
-4. Practice directly OR  
-   - Start **Quiz Mode** ⏱  
-   - Generate a **PDF** 📑  
+Do you also want me to add a **preview screenshot** of your app (UI) at the top of README? That attracts visitors immediately.
 
-That’s it—you’re ready to practice efficiently!
-
----
-
-## 🖥️ For Developers (Run Locally)
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/YASH-530/SSC-CGL-QUESTION-BANK.git
-
----
-
-This version is **cleaner, more human-friendly**, and makes a first-time visitor immediately understand:
-
-- What it is  
-- How to use it  
-- Why it’s reliable  
-
-👉 Do you want me to also add **badges** (like “Made with HTML/CSS/JS”, “Deployed on GitHub Pages”) to make it more professional?
