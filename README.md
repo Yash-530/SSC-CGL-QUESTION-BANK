@@ -3,6 +3,9 @@
 A **free online resource** for SSC CGL aspirants.  
 Practice with **Official Previous Years’ Questions (2016–2024)**, including the most repeated questions—organized neatly by subject, topic, year, and difficulty.
 
+A **comprehensive SSC CGL General Studies Question Bank** containing official **previous years’ questions (2016–2024)** with explanations, quiz mode, and PDF export.  
+🎯 Built for aspirants to practice, revise, and test themselves effectively.
+
 ---
 
 ## 🌐 Live Website
@@ -18,44 +21,28 @@ It helps aspirants **practice, review, and analyze** General Studies questions w
 ---
 
 ## ✨ Features
-✅ Filter by **Subject, Topic, Year, Difficulty**  
-✅ **Quiz Mode** with Timer, Score & Review  
-✅ **PDF Generation** of selected questions  
-✅ User-friendly notifications  
-✅ Mobile Responsive UI  
+
+- 📚 **Subject & Topic Selection** – filter questions by subject and topic  
+- 📅 **Year-wise & Difficulty Filters** – focus your practice on what matters  
+- 📝 **Quiz Mode** – attempt randomized quizzes with a timer  
+- ⏱ **Smart Timer** – color alerts + beep sound + countdown in final seconds  
+- 📖 **Review Mode** – see correct answers and explanations after quiz  
+- 📄 **PDF Generation** – export questions with answers & explanations  
+- 🔔 **Notifications** – instant alerts for quiz actions & warnings  
+- 🎨 **Responsive UI** – works smoothly on desktop & mobile  
 
 ---
 
 ## 📂 Project Structure
+
+```bash
 SSC-CGL-QUESTION-BANK/
-│
-├── index.html              # Main page (UI layout + markup)
-├── style.css               # Styles (layout, theme, responsive rules)
-├── script.js               # App logic (filters, quiz, timer, PDF)
-│
-├── assets/                 # Static assets (optional)
-│   ├── images/             # Screenshots / logos / previews
-│   │   └── preview.png
-│   └── icons/              # Favicons / SVGs
-│       └── ssc-cgl.svg
-│
-├── data/                   # Sample or starter data (optional)
-│   ├── sample-questions.json
-│   └── sample-questions.csv
-│
-├── docs/                   # Extra docs (optional)
-│   └── screenshots.md
-│
-├── .github/                # GitHub config (optional)
-│   └── workflows/
-│       └── pages.yml       # GitHub Pages CI/CD (if used)
-│
-├── LICENSE                 # MIT (or your chosen license)
-└── README.md               # This file
+│── index.html        # Main HTML file
+│── style.css         # Stylesheet (UI design, colors, layout)
+│── script.js         # Core logic (quiz, filters, PDF, timer)
+│── /assets           # Images, icons, sound files (beep, etc.)
+│── README.md         # Project documentation
 
-## 📊 Quiz Flow Diagram
-
-```mermaid
 flowchart TD
     A[Start Quiz] --> B{Questions Available?}
     B -- No --> C[Notification: No questions available]
@@ -74,5 +61,3 @@ flowchart TD
     K --> M[Review Questions]
     K --> N[Back to Subjects]
     N --> O[Show Filters + Question List]
-
----
