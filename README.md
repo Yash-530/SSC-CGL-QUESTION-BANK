@@ -33,6 +33,12 @@ It helps aspirants **practice, review, and analyze** General Studies questions w
 
 ---
 
+Keyboard Shortcuts: 
+• Ctrl+L: Load Questions 
+• Ctrl+A: Toggle Answers 
+• Ctrl+Q: Start/Stop Quiz 
+• Ctrl+P: Generate PDF Features: 
+
 ## 📂 Project Structure
 
 ```bash
