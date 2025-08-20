@@ -52,6 +52,8 @@ SSC-CGL-QUESTION-BANK/
 - *Ctrl+Q*: Start/Stop Quiz 
 - *Ctrl+P*: Generate PDF Features: 
 
+## 📊 Study Flow
+
 ```mermaid
 flowchart TD
 
