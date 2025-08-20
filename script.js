@@ -164,11 +164,19 @@
         }
 
         function handleTopicChange() {
-            // Auto-load questions when topic changes (if subject is selected)
-            if (document.getElementById('subjectSelect').value && document.getElementById('topicSelect').value) {
-                loadQuestions();
-            }
+          const subject = document.getElementById('subjectSelect').value;
+          const topic = document.getElementById('topicSelect').value;
+
+          // No auto-loading. Just clear previous questions until user clicks load button.
+          currentQuestions = [];
+          displayQuestions();
+
+          // Optional: give feedback so users know to click the button
+          if (subject && topic) {
+              showNotification('Click "Load Questions" to view the selected topic.', 'info');
+          }
         }
+
 
         function handleFilterChange() {
             // Re-apply filters if questions are already loaded
@@ -478,7 +486,9 @@ function startQuiz() {
 
     // ✅ Hide filters until backToSubjects
     const filters = document.getElementById('controlid');
+    const impq=document.getElementById('importquestions');
     if (filters) filters.classList.add("hidden");
+    if (impq) impq.classList.add("hidden");
 
   showNotification(`Quiz started! Duration: ${mins} min`, 'info');
 }
@@ -667,7 +677,9 @@ function backToSubjects() {
   
   // ✅ Show filters back (if you hide them during quiz)
     const filters = document.getElementById('controlid');
+    const impq=document.getElementById('importquestions');
     if (filters) filters.classList.remove("hidden");
+    if (impq) impq.classList.remove("hidden");
 
   // Reset quiz button
   const btn = document.getElementById('quizBtn');
@@ -794,13 +806,12 @@ function reviewQuestions() {
   }
 }
 
-        function generatePDF() {
+function generatePDF() {
     if (!currentQuestions.length) {
         showNotification('Please load questions first!', 'warning');
         return;
     }
 
-    const printSection = document.getElementById('printSection');
     const subject = document.getElementById('subjectSelect').value;
     const topic = document.getElementById('topicSelect').value;
 
@@ -841,21 +852,28 @@ function reviewQuestions() {
     });
 
     content += '</div>';
-    printSection.innerHTML = content;
 
-    // Use html2pdf to generate and download the PDF
+    // Wrap it as a full HTML document so html2pdf parses correctly
+    const fullHTML = `
+        <html>
+            <head><meta charset="UTF-8"></head>
+            <body>${content}</body>
+        </html>
+    `;
+
+    // PDF options
     const opt = {
-        margin:       0.5,
-        filename:     `SSC_CGL_${subject}_${topic}_Questions.pdf`,
-        image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { scale: 2 },
-        jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+        margin: 0.5,
+        filename: `SSC_CGL_${subject}_${topic}_Questions.pdf`,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
     };
-    
-    html2pdf().set(opt).from(printSection).save();
-    
-    showNotification('PDF download started!', 'info');
+
+    html2pdf().set(opt).from(fullHTML).save()
+        .then(() => showNotification('PDF download started!', 'info'));
 }
+
 
 
         function updateProgress() {
