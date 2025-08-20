@@ -53,7 +53,8 @@ SSC-CGL-QUESTION-BANK/
 - *Ctrl+P*: Generate PDF Features: 
 
 flowchart TD
-    A[Start Quiz] --> B{Questions Available?}
+
+    A [Start Quiz] --> B{Questions Available?}
     B -- No --> C[Notification: No questions available]
     B -- Yes --> D[Ask Duration in Minutes]
     D --> E[Initialize Quiz State]
