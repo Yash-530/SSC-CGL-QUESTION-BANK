@@ -50,3 +50,28 @@ SSC-CGL-QUESTION-BANK/
 ├── LICENSE                 # MIT (or your chosen license)
 └── README.md               # This file
 
+```mermaid
+flowchart TD
+    A[Start Quiz] --> B{Questions Available?}
+    B -- No --> C[Show Notification: "No questions available"]
+    B -- Yes --> D[Ask Duration (Minutes)]
+    D --> E[Initialize Quiz State]
+    E --> F[Show First Question + Timer Start]
+
+    F --> G[User Selects Answer]
+    G --> H{More Questions?}
+    H -- Yes --> F
+    H -- No --> I[End Quiz]
+
+    I --> J[Show Score + Feedback]
+    J --> K[Options]
+    K --> L[Restart Quiz]
+    K --> M[Review Questions]
+    K --> N[Back to Subjects]
+    N --> O[Show Filters + Question List]
+
+---
+
+---
+
+Would you like me to **embed badges (shields.io)** at the very top of your README (like "Live Demo", "License", "Made with ❤️ in JS") so it looks more professional?
