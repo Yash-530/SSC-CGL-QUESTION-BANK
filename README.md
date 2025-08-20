@@ -57,7 +57,7 @@ SSC-CGL-QUESTION-BANK/
 flowchart TD
     A[Start Quiz] --> B{Questions Available?}
     B -- No --> C[Show Notification: No questions available]
-    B -- Yes --> D[Ask Duration (Minutes)]
+    B -- Yes --> D[Ask Duration Minutes]
     D --> E[Initialize Quiz State]
     E --> F[Show First Question + Timer Start]
 
@@ -67,7 +67,7 @@ flowchart TD
     H -- No --> I[End Quiz]
 
     I --> J[Show Score + Feedback]
-    J --> K[Options]
+    J --> K[Options: Restart / Review / Back]
     K --> L[Restart Quiz]
     K --> M[Review Questions]
     K --> N[Back to Subjects]
