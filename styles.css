@@ -1,495 +1,719 @@
-{
-  "History": {
-    "Ancient History": [
-      {
-        "question": "Which of the following Harappan sites is known as the 'Manchester of Harappan Civilization'?",
-        "options": [
-          "A) Harappa",
-          "B) Mohenjodaro",
-          "C) Dholavira",
-          "D) Lothal"
-        ],
-        "answer": "D) Lothal",
-        "explanation": "Lothal was known for its bead-making industry and dock facilities, earning it the title 'Manchester of Harappan Civilization'.",
-        "year": "2019",
-        "difficulty": "medium"
-      },
-      {
-        "question": "The Vedic deity Indra was the god of?",
-        "options": [
-          "A) Wind and storm",
-          "B) Fire",
-          "C) Water",
-          "D) Earth"
-        ],
-        "answer": "A) Wind and storm",
-        "explanation": "Indra was the king of gods and god of thunder, lightning and storms in Vedic mythology.",
-        "year": "2018",
-        "difficulty": "easy"
-      },
-      {
-        "question": "Which Mauryan ruler is known for his policy of Dhamma?",
-        "options": [
-          "A) Chandragupta Maurya",
-          "B) Bindusara",
-          "C) Ashoka",
-          "D) Dasharatha"
-        ],
-        "answer": "C) Ashoka",
-        "explanation": "Ashoka promoted Dhamma (moral code) after the Kalinga war to spread peace and non-violence.",
-        "year": "2017",
-        "difficulty": "easy"
-      },
-      {
-        "question": "The Great Bath was found at which Harappan site?",
-        "options": [
-          "A) Harappa",
-          "B) Mohenjodaro",
-          "C) Kalibangan",
-          "D) Banawali"
-        ],
-        "answer": "B) Mohenjodaro",
-        "explanation": "The Great Bath, a large rectangular tank, was discovered at Mohenjodaro and is considered one of the earliest public water tanks.",
-        "year": "2020",
-        "difficulty": "medium"
-      },
-      {
-        "question": "Which of the following was the court language of Mauryas?",
-        "options": [
-          "A) Sanskrit",
-          "B) Prakrit",
-          "C) Pali",
-          "D) Tamil"
-        ],
-        "answer": "B) Prakrit",
-        "explanation": "Prakrit was the court language during the Mauryan period. Ashoka's edicts were written in Prakrit.",
-        "year": "2021",
-        "difficulty": "medium"
-      },
-      {
-        "question": "The Rigveda consists of how many mandalas?",
-        "options": [
-          "A) 8",
-          "B) 9",
-          "C) 10",
-          "D) 12"
-        ],
-        "answer": "C) 10",
-        "explanation": "The Rigveda is divided into 10 mandalas (books) containing 1,028 hymns.",
-        "year": "2016",
-        "difficulty": "hard"
-      }
-    ],
-    "Medieval History": [
-      {
-        "question": "Who founded the Delhi Sultanate?",
-        "options": [
-          "A) Qutub-ud-din Aibak",
-          "B) Iltutmish",
-          "C) Balban",
-          "D) Alauddin Khalji"
-        ],
-        "answer": "A) Qutub-ud-din Aibak",
-        "explanation": "Qutub-ud-din Aibak established the Delhi Sultanate in 1206 CE after Muhammad Ghori's death.",
-        "year": "2018",
-        "difficulty": "easy"
-      },
-      {
-        "question": "The Mughal emperor Akbar's policy of religious tolerance was called?",
-        "options": [
-          "A) Din-i-Ilahi",
-          "B) Sulh-i-Kul",
-          "C) Mansabdari",
-          "D) Zabt"
-        ],
-        "answer": "B) Sulh-i-Kul",
-        "explanation": "Sulh-i-Kul means 'universal peace' and represented Akbar's policy of religious tolerance towards all faiths.",
-        "year": "2019",
-        "difficulty": "medium"
-      },
-      {
-        "question": "Which Sultan introduced the market control system?",
-        "options": [
-          "A) Iltutmish",
-          "B) Balban",
-          "C) Alauddin Khalji",
-          "D) Muhammad bin Tughluq"
-        ],
-        "answer": "C) Alauddin Khalji",
-        "explanation": "Alauddin Khalji introduced market control system to control prices and ensure regular supply of goods.",
-        "year": "2020",
-        "difficulty": "medium"
-      },
-      {
-        "question": "The Vijayanagara Empire was founded by which brothers?",
-        "options": [
-          "A) Harihara and Bukka",
-          "B) Krishnadeva Raya and Achyuta Raya",
-          "C) Rama Raya and Tirumala",
-          "D) Saluva Narasimha and Immadi Narasimha"
-        ],
-        "answer": "A) Harihara and Bukka",
-        "explanation": "Harihara I and Bukka Raya I founded the Vijayanagara Empire in 1336 CE.",
-        "year": "2017",
-        "difficulty": "medium"
-      },
-      {
-        "question": "The Battle of Tarain (1192) was fought between?",
-        "options": [
-          "A) Muhammad Ghori and Prithviraj Chauhan",
-          "B) Mahmud of Ghazni and Rajendra Chola",
-          "C) Babur and Ibrahim Lodi",
-          "D) Ahmad Shah Abdali and Marathas"
-        ],
-        "answer": "A) Muhammad Ghori and Prithviraj Chauhan",
-        "explanation": "The Second Battle of Tarain (1192) was fought between Muhammad Ghori and Prithviraj Chauhan, resulting in Ghori's victory.",
-        "year": "2021",
-        "difficulty": "easy"
-      }
-    ],
-    "Modern History": [
-      {
-        "question": "The Indian National Congress was founded in which year?",
-        "options": [
-          "A) 1884",
-          "B) 1885",
-          "C) 1886",
-          "D) 1887"
-        ],
-        "answer": "B) 1885",
-        "explanation": "INC was founded by A.O. Hume on 28 December 1885 in Bombay (now Mumbai).",
-        "year": "2016",
-        "difficulty": "easy"
-      },
-      {
-        "question": "Who started the 'Quit India Movement'?",
-        "options": [
-          "A) Bal Gangadhar Tilak",
-          "B) Subhash Chandra Bose",
-          "C) Mahatma Gandhi",
-          "D) Jawaharlal Nehru"
-        ],
-        "answer": "C) Mahatma Gandhi",
-        "explanation": "Mahatma Gandhi launched the Quit India Movement on 8 August 1942 with the slogan 'Do or Die'.",
-        "year": "2017",
-        "difficulty": "easy"
-      },
-      {
-        "question": "The Sepoy Mutiny started from which place?",
-        "options": [
-          "A) Meerut",
-          "B) Delhi",
-          "C) Kanpur",
-          "D) Lucknow"
-        ],
-        "answer": "A) Meerut",
-        "explanation": "The Sepoy Mutiny of 1857 started from Meerut on 10 May 1857 when sepoys refused to use the new Enfield rifle cartridges.",
-        "year": "2019",
-        "difficulty": "easy"
-      },
-      {
-        "question": "Who founded the Brahmo Samaj?",
-        "options": [
-          "A) Dayananda Saraswati",
-          "B) Ram Mohan Roy",
-          "C) Keshab Chandra Sen",
-          "D) Ishwar Chandra Vidyasagar"
-        ],
-        "answer": "B) Ram Mohan Roy",
-        "explanation": "Raja Ram Mohan Roy founded the Brahmo Samaj in 1828 to reform Hindu society and eliminate social evils.",
-        "year": "2020",
-        "difficulty": "easy"
-      },
-      {
-        "question": "The Rowlatt Act was passed in which year?",
-        "options": [
-          "A) 1917",
-          "B) 1918",
-          "C) 1919",
-          "D) 1920"
-        ],
-        "answer": "C) 1919",
-        "explanation": "The Rowlatt Act was passed in March 1919, giving the British government extraordinary powers to suppress political activities.",
-        "year": "2018",
-        "difficulty": "medium"
-      }
-    ]
-  },
-  "Geography": {
-    "Physical Geography": [
-      {
-        "question": "Which is the highest mountain peak in India?",
-        "options": [
-          "A) K2",
-          "B) Kanchenjunga",
-          "C) Nanda Devi",
-          "D) Dhaulagiri"
-        ],
-        "answer": "B) Kanchenjunga",
-        "explanation": "Kanchenjunga (8,586m) is the highest peak entirely within India's borders, located in Sikkim.",
-        "year": "2020",
-        "difficulty": "easy"
-      },
-      {
-        "question": "The Tropic of Cancer passes through how many Indian states?",
-        "options": [
-          "A) 6",
-          "B) 7",
-          "C) 8",
-          "D) 9"
-        ],
-        "answer": "C) 8",
-        "explanation": "Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
-        "year": "2019",
-        "difficulty": "medium"
-      },
-      {
-        "question": "Which type of soil is found in the Deccan Plateau?",
-        "options": [
-          "A) Alluvial soil",
-          "B) Black soil",
-          "C) Red soil",
-          "D) Laterite soil"
-        ],
-        "answer": "B) Black soil",
-        "explanation": "Black soil (Regur soil) is predominantly found in the Deccan Plateau, formed from basaltic lava flows.",
-        "year": "2018",
-        "difficulty": "medium"
-      },
-      {
-        "question": "The Western Ghats are also known as?",
-        "options": [
-          "A) Sahyadri",
-          "B) Nilgiris",
-          "C) Aravalli",
-          "D) Vindhya"
-        ],
-        "answer": "A) Sahyadri",
-        "explanation": "The Western Ghats are locally known as Sahyadri mountains, running parallel to the western coast of India.",
-        "year": "2017",
-        "difficulty": "easy"
-      }
-    ],
-    "Indian Geography": [
-      {
-        "question": "Which state has the longest coastline in India?",
-        "options": [
-          "A) Tamil Nadu",
-          "B) Gujarat",
-          "C) Andhra Pradesh",
-          "D) Kerala"
-        ],
-        "answer": "B) Gujarat",
-        "explanation": "Gujarat has the longest coastline of about 1,600 km among all Indian states.",
-        "year": "2016",
-        "difficulty": "easy"
-      },
-      {
-        "question": "The largest lagoon in India is?",
-        "options": [
-          "A) Chilika Lake",
-          "B) Pulicat Lake",
-          "C) Kolleru Lake",
-          "D) Vembanad Lake"
-        ],
-        "answer": "A) Chilika Lake",
-        "explanation": "Chilika Lake in Odisha is the largest coastal lagoon in India and second largest in the world.",
-        "year": "2022",
-        "difficulty": "medium"
-      }
-    ]
-  },
-  "Science": {
-    "Physics": [
-      {
-        "question": "The SI unit of electric current is?",
-        "options": [
-          "A) Volt",
-          "B) Ampere",
-          "C) Ohm",
-          "D) Watt"
-        ],
-        "answer": "B) Ampere",
-        "explanation": "Ampere (A) is the SI base unit of electric current, named after André-Marie Ampère.",
-        "year": "2016",
-        "difficulty": "easy"
-      },
-      {
-        "question": "What is the speed of light in vacuum?",
-        "options": [
-          "A) 3 × 10⁸ m/s",
-          "B) 3 × 10⁶ m/s",
-          "C) 3 × 10¹⁰ m/s",
-          "D) 3 × 10⁴ m/s"
-        ],
-        "answer": "A) 3 × 10⁸ m/s",
-        "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ meters per second or 300,000 km/s.",
-        "year": "2017",
-        "difficulty": "easy"
-      }
-    ],
-    "Chemistry": [
-      {
-        "question": "Which gas is primarily responsible for global warming?",
-        "options": [
-          "A) Oxygen",
-          "B) Nitrogen",
-          "C) Carbon dioxide",
-          "D) Hydrogen"
-        ],
-        "answer": "C) Carbon dioxide",
-        "explanation": "CO2 is the main greenhouse gas contributing to global warming, though others like methane also contribute.",
-        "year": "2019",
-        "difficulty": "easy"
-      },
-      {
-        "question": "The pH value of pure water is?",
-        "options": [
-          "A) 6",
-          "B) 7",
-          "C) 8",
-          "D) 9"
-        ],
-        "answer": "B) 7",
-        "explanation": "Pure water has a pH of 7, which is neutral - neither acidic nor basic.",
-        "year": "2017",
-        "difficulty": "easy"
-      }
-    ],
-    "Biology": [
-      {
-        "question": "The process of photosynthesis occurs in which part of the plant cell?",
-        "options": [
-          "A) Nucleus",
-          "B) Mitochondria",
-          "C) Chloroplast",
-          "D) Ribosome"
-        ],
-        "answer": "C) Chloroplast",
-        "explanation": "Chloroplasts contain chlorophyll and are the site of photosynthesis in plant cells.",
-        "year": "2016",
-        "difficulty": "easy"
-      }
-    ]
-  },
-  "Economics": {
-    "Indian Economy": [
-      {
-        "question": "What is India's current GDP ranking in the world (as of 2024)?",
-        "options": [
-          "A) 4th",
-          "B) 5th",
-          "C) 6th",
-          "D) 7th"
-        ],
-        "answer": "B) 5th",
-        "explanation": "India is the 5th largest economy by nominal GDP (2024) after USA, China, Germany, and Japan.",
-        "year": "2024",
-        "difficulty": "medium"
-      }
-    ],
-    "Banking & Finance": [
-      {
-        "question": "Which is the oldest stock exchange in India?",
-        "options": [
-          "A) NSE",
-          "B) BSE",
-          "C) CSE",
-          "D) DSE"
-        ],
-        "answer": "B) BSE",
-        "explanation": "Bombay Stock Exchange (BSE) established in 1875 is the oldest stock exchange in India.",
-        "year": "2017",
-        "difficulty": "easy"
-      }
-    ]
-  },
-  "Environment": [
-    {
-      "question": "The ozone layer is located in which part of atmosphere?",
-      "options": [
-        "A) Troposphere",
-        "B) Stratosphere",
-        "C) Mesosphere",
-        "D) Thermosphere"
-      ],
-      "answer": "B) Stratosphere",
-      "explanation": "Ozone layer is primarily located in stratosphere, 15-35 km above Earth's surface.",
-      "year": "2019",
-      "difficulty": "medium"
-    },
-    {
-      "question": "World Environment Day is celebrated on?",
-      "options": [
-        "A) 5 June",
-        "B) 22 April",
-        "C) 22 March",
-        "D) 16 September"
-      ],
-      "answer": "A) 5 June",
-      "explanation": "World Environment Day is observed annually on 5 June since 1974.",
-      "year": "2016",
-      "difficulty": "easy"
-    }
-  ],
-  "Current Affairs": [
-    {
-      "question": "Who is the current Chief Justice of India (2024)?",
-      "options": [
-        "A) D.Y. Chandrachud",
-        "B) N.V. Ramana",
-        "C) Sharad Arvind Bobde",
-        "D) Ranjan Gogoi"
-      ],
-      "answer": "A) D.Y. Chandrachud",
-      "explanation": "Justice D.Y. Chandrachud is the current Chief Justice of India since November 2022.",
-      "year": "2024",
-      "difficulty": "easy"
-    },
-    {
-      "question": "India's G20 Presidency was in which year?",
-      "options": [
-        "A) 2022",
-        "B) 2023",
-        "C) 2024",
-        "D) 2025"
-      ],
-      "answer": "B) 2023",
-      "explanation": "India held G20 presidency in 2023 with theme 'Vasudhaiva Kutumbakam'.",
-      "year": "2023",
-      "difficulty": "easy"
-    }
-  ],
-  "Polity": {
-    "Constitution": [
-      {
-        "question": "The Indian Constitution was adopted on?",
-        "options": [
-          "A) 26 January 1950",
-          "B) 26 November 1949",
-          "C) 15 August 1947",
-          "D) 2 October 1950"
-        ],
-        "answer": "B) 26 November 1949",
-        "explanation": "The Indian Constitution was adopted on 26 November 1949 and came into effect on 26 January 1950.",
-        "year": "2016",
-        "difficulty": "easy"
-      }
-    ],
-    "Parliament": [
-      {
-        "question": "The maximum strength of Lok Sabha is?",
-        "options": [
-          "A) 545",
-          "B) 550",
-          "C) 552",
-          "D) 555"
-        ],
-        "answer": "C) 552",
-        "explanation": "The maximum strength of Lok Sabha is 552 (530 from states + 20 from Union Territories + 2 Anglo-Indians).",
-        "year": "2019",
-        "difficulty": "medium"
-      }
-    ]
-  }
+:root {
+            --primary-color: #3498db;
+            --secondary-color: #2980b9;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --dark-color: #2c3e50;
+            --light-color: #ecf0f1;
+            --gradient-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --card-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            --hover-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--gradient-bg);
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            text-align: center;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            animation: slideDown 0.8s ease-out;
+        }
+        
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .header h1 {
+            color: var(--dark-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeInUp 0.6s ease-out;
+            animation-fill-mode: both;
+            cursor: pointer;
+        }
+        
+        .stat-card:nth-child(2) { animation-delay: 0.1s; }
+        .stat-card:nth-child(3) { animation-delay: 0.2s; }
+        .stat-card:nth-child(4) { animation-delay: 0.3s; }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: var(--hover-shadow);
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .controls {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            animation: slideUp 0.8s ease-out;
+        }
+        
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .control-group {
+            margin-bottom: 25px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark-color);
+            font-size: 16px;
+        }
+        
+        .control-group select, .control-group input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e6ed;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+            cursor: pointer;
+        }
+        
+        .control-group select:focus, .control-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .control-group select:hover, .control-group input:hover {
+            border-color: var(--secondary-color);
+        }
+        
+        .filter-controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        #filtersContainer {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+
+            /* Animation defaults */
+            max-height: 1000px;   /* enough to hold all filters */
+            opacity: 1;
+            overflow: hidden;
+            transition: max-height 0.5s ease, opacity 0.5s ease;
+            }
+
+        #filtersContainer.hidden {
+            max-height: 0;
+            opacity: 0;
+            pointer-events: none; /* avoid clicking hidden filters */
+            }
+
+        
+        .hidden {
+            display: none !important;
+        }
+
+        .button-group {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 25px;
+        }
+        
+        .btn {
+            padding: 15px 25px;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+        
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .btn:hover::before {
+            left: 100%;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+        }
+
+        .quiz-controls {
+
+            display: contents;
+        }
+        #loadBtn,#answersBtn,#pdfBtn,#quizBtn {
+            margin-bottom: 10px;
+        }
+
+        
+        .btn-success {
+            background: linear-gradient(135deg, var(--success-color), #229954);
+            color: white;
+        }
+        
+        .btn-info {
+            background: linear-gradient(135deg, #17a2b8, #138496);
+            color: white;
+        }
+        
+        .btn-warning {
+            background: linear-gradient(135deg, var(--warning-color), #e67e22);
+            color: white;
+        }
+        
+        .btn:hover:not(:disabled) {
+            transform: translateY(-2px);
+            box-shadow: var(--hover-shadow);
+        }
+        
+        .btn:active:not(:disabled) {
+            transform: translateY(0);
+        }
+        
+        .content {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .question-container {
+            margin-bottom: 30px;
+            padding: 25px;
+            border: 2px solid #e0e6ed;
+            border-radius: 15px;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+            animation: questionSlide 0.5s ease-out;
+            animation-fill-mode: both;
+        }
+        
+        @keyframes questionSlide {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .question-container:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .question-number {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .question-meta {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .question-year {
+            background: var(--warning-color);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .difficulty-indicator {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .difficulty-easy { background: #d4edda; color: #155724; }
+        .difficulty-medium { background: #fff3cd; color: #856404; }
+        .difficulty-hard { background: #f8d7da; color: #721c24; }
+        
+        .question {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            color: var(--dark-color);
+        }
+        
+        .options {
+            margin-bottom: 15px;
+        }
+        
+        .option {
+            padding: 12px 15px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: white;
+            position: relative;
+            user-select: none;
+        }
+        
+        .option::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 0;
+            background: linear-gradient(90deg, var(--primary-color), transparent);
+            transition: width 0.3s ease;
+            border-radius: 8px 0 0 8px;
+        }
+        
+        .option:hover::before {
+            width: 4px;
+        }
+        
+        .option:hover {
+            background: #e3f2fd;
+            border-color: var(--primary-color);
+            transform: translateX(5px);
+        }
+        
+        .option.correct {
+            background: #d4edda !important;
+            border-color: var(--success-color) !important;
+            color: #155724 !important;
+            font-weight: 600;
+            animation: correctAnswer 0.5s ease-out;
+        }
+        
+        @keyframes correctAnswer {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        .option.incorrect {
+            background: #f8d7da !important;
+            border-color: var(--danger-color) !important;
+            color: #721c24 !important;
+            font-weight: 600;
+        }
+        
+        .option.selected {
+            background: #e3f2fd;
+            border-color: var(--primary-color);
+            font-weight: 600;
+            transform: translateX(5px);
+        }
+        
+        .explanation {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-style: italic;
+            animation: slideDown 0.5s ease-out;
+        }
+        
+        .progress-container {
+            margin: 20px 0;
+            margin-top: -30px;
+        }
+        
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark-color);
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 10px;
+            background: var(--light-color);
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--success-color), #2ecc71);
+            width: 0%;
+            transition: width 0.5s ease;
+            border-radius: 5px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            position: relative;
+        }
+        
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--primary-color);
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+            margin-left: 10px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .quiz-header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 15px;
+            animation: pulseGlow 2s infinite;
+        }
+        
+        @keyframes pulseGlow {
+            0%, 100% { box-shadow: 0 0 20px rgba(52, 152, 219, 0.3); }
+            50% { box-shadow: 0 0 30px rgba(52, 152, 219, 0.6); }
+        }
+        
+        .quiz-complete {
+            text-align: center;
+            padding: 50px;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            border-radius: 20px;
+            animation: celebration 0.8s ease-out;
+        }
+        
+        @keyframes celebration {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        
+        .score-display {
+            font-size: 3rem;
+            font-weight: bold;
+            margin: 20px 0;
+            background: linear-gradient(45deg, var(--success-color), #2ecc71);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            .button-group {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats {
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .filter-controls {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .print-section {
+            /* display: none; */
+        }
+        
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            
+            .print-section, .print-section * {
+                visibility: visible;
+            }
+            
+            .print-section {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+            }
+            
+            .question-container {
+                break-inside: avoid;
+                margin-bottom: 20px;
+                border: 1px solid #000;
+            }
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--secondary-color);
+        }
+
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 600;
+            z-index: 10000;
+            animation: slideInRight 0.3s ease-out;
+            max-width: 300px;
+            word-wrap: break-word;
+            box-shadow: var(--card-shadow);
+        }
+
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+/* Import control styling */
+.import-group { margin: 12px 0; padding: 10px; border: 1px dashed rgba(0,0,0,.2); border-radius: 10px; }
+.import-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.import-row input[type="file"] { max-width: 280px; }
+.import-group .hint { display:block; opacity: .8; }
+
+
+/* ===== Import UI Polished Card ===== */
+.import-group {
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin: 22px auto;
+  max-width: 900px;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+.import-group label {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: #34495e;
+  margin-bottom: 10px;
+  display: block;
+}
+.import-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#importFile {
+  flex: 1;
+  min-width: 260px;
+  padding: 10px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 10px;
+  background: #fafbfc;
+}
+#importBtn {
+  background: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  cursor: pointer;
+  transition: transform 0.05s ease, box-shadow 0.2s ease, background 0.2s ease;
+  box-shadow: 0 6px 14px rgba(79,70,229,0.25);
+}
+#importBtn:hover { background: #4338ca; }
+#importBtn:active { transform: translateY(1px); }
+.import-group .hint { display:block; opacity:.75; margin-top:8px; font-size:.92rem; }
+
+#quizTimerDisplay {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Final 10s blinking */
+.final-blink {
+  animation: blinkWarning 1.5s infinite;
+}
+
+@keyframes blinkWarning {
+  0%   { color: #e74c3c; }   /* red */
+  50%  { color: #e79614aa; }  /* orange */
+  100% { color: #e74c3c; }   /* red */
 }
