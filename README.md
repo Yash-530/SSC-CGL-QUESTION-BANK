@@ -56,7 +56,7 @@ SSC-CGL-QUESTION-BANK/
 ```mermaid
 flowchart TD
     A[Start Quiz] --> B{Questions Available?}
-    B -- No --> C[Show Notification: "No questions available"]
+    B -- No --> C[Show Notification: No questions available]
     B -- Yes --> D[Ask Duration (Minutes)]
     D --> E[Initialize Quiz State]
     E --> F[Show First Question + Timer Start]
