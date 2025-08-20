@@ -81,7 +81,7 @@ flowchart TD
 
     %% --- Quiz Flow ---
     F --> N[Start Quiz]
-    N --> O[Enter Duration (Minutes)]
+    N --> O[Enter Duration {Minutes}]
     O --> P[Initialize Quiz State]
     P --> Q[Show First Question + Start Timer]
 
