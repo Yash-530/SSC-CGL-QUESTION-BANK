@@ -1,4 +1,5 @@
-# 📘 SSC CGL Question Bank
+# 📘 SSC CGL Question Bank ![GitHub repo size](https://img.shields.io/github/repo-size/yash-530/SSC-CGL-QUESTION-BANK?color=blue&style=for-the-badge)
+
 
 A **free online resource** for SSC CGL aspirants.  
 Practice with **Official Previous Years’ Questions (2016–2024)**, including the most repeated questions—organized neatly by subject, topic, year, and difficulty.
@@ -7,11 +8,7 @@ A **comprehensive SSC CGL General Studies Question Bank** containing official **
 🎯 Built for aspirants to practice, revise, and test themselves effectively.
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/yash-530/SSC-CGL-QUESTION-BANK?color=blue&style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/yash-530/SSC-CGL-QUESTION-BANK?style=for-the-badge&color=yellow)
-![GitHub forks](https://img.shields.io/github/forks/yash-530/SSC-CGL-QUESTION-BANK?style=for-the-badge&color=green)
-![License](https://img.shields.io/github/license/yash-530/SSC-CGL-QUESTION-BANK?style=for-the-badge&color=orange)
-s
+
 ---
 
 ## 🌐 Live Website
