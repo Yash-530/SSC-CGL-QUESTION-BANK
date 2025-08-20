@@ -81,7 +81,7 @@ flowchart TD
 
     %% --- Quiz Flow ---
     F --> N[Start Quiz]
-    N --> O[Enter Duration {Minutes}]
+    N --> O[Enter Duration Minutes]
     O --> P[Initialize Quiz State]
     P --> Q[Show First Question + Start Timer]
 
@@ -91,9 +91,9 @@ flowchart TD
     S -->|No| T[End Quiz]
 
     T --> U[Show Score + Feedback]
-    U --> V{Next Action}
+    U --> V-Next Action
     V -->|🔄 Restart Quiz| N
-    V -->|📖 Review Questions| W[Review Mode {All Qs + Answers + Explanations}]
+    V -->|📖 Review Questions| W[Review Mode All Qs + Answers + Explanations]
     V -->|↩ Back to Subjects| X[Show Filters + Question List]
 
     %% --- Ending ---
