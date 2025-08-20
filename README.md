@@ -1,10 +1,13 @@
 # 📘 SSC CGL Question Bank
 
-[![GitHub Pages](https://img.shields.io/badge/Live%20Demo-Visit%20Now-2b7fff?style=for-the-badge)](https://yash-530.github.io/SSC-CGL-QUESTION-BANK/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)
-![Made with HTML](https://img.shields.io/badge/Made%20with-HTML-blue?style=for-the-badge)
-![Made with JS](https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge)
+A **free online resource** for SSC CGL aspirants.  
+Practice with **Official Previous Years’ Questions (2016–2024)**, including the most repeated questions—organized neatly by subject, topic, year, and difficulty.
+
+---
+
+## 🌐 Live Website
+
+👉 [Click here to open SSC CGL Question Bank](https://yash-530.github.io/SSC-CGL-QUESTION-BANK/)
 
 ---
 
